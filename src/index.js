@@ -5,6 +5,7 @@ import { default as store, history } from './store';
 import registerServiceWorker from './register-service-worker';
 import { ConnectedRouter as Router } from 'connected-react-router';
 import { Route } from 'react-router';
+import "./styles/tailwind.out.css"
 
 import App from './containers/app.js';
 import Login from './containers/login.js';
