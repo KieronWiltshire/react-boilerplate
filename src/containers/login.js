@@ -3,17 +3,12 @@ import { connect } from 'react-redux';
 
 export default connect(
   (state) => {
-  
+    
   }, 
   (dispatch) => {
   
   }
 )(class extends Component {
-
-  constructor() {
-    super();
-    this.name = "Daniel";
-  }
 
   /**
    * Render the {React} component.
@@ -23,7 +18,7 @@ export default connect(
   render() {
     return (
       <div>
-        <h1>Damn, {this.name}!</h1>
+        <h1>This is my login page</h1>
       </div>
     );
   }

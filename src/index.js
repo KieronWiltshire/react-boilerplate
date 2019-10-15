@@ -8,6 +8,7 @@ import { Route } from 'react-router';
 import "./styles/tailwind.out.css"
 
 import App from './containers/app.js';
+import Login from './containers/login.js';
 
 import './vendor';
 
@@ -25,6 +26,7 @@ ReactDOM.render(
     <Router history={history}>
       <div>
         <Route exact path="/" component={App} />
+        <Route path="/login" component={Login} />
       </div>
     </Router>
   </Provider>,
