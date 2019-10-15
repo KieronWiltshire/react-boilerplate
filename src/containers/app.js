@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-const App = connect((state) => {
-  return {
-    // ...
-  };
-}, (dispatch) => {
-  return {
-    // ...
-  };
-})(class extends Component {
+const App = connect(
+  (state) => {
+  
+  }, 
+  (dispatch) => {
+  
+  }
+)(class extends Component {
 
   /**
    * Render the {React} component.
