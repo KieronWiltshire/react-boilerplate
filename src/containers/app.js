@@ -13,7 +13,7 @@ const App = connect(
   /**
    * Render the {React} component.
    *
-   * @returns {void}
+   * @returns {JSX}
    */
   render() {
     return (
