@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import Mouse from '../components/mouse';
+
 export default connect(
   (state) => {
     
   }, 
   (dispatch) => {
-  
+    
   }
-)(class extends Component {
+)(class MouseTracker extends Component {
 
   /**
    * Render the {React} component.
@@ -17,10 +19,10 @@ export default connect(
    */
   render() {
     return (
-      <div>
-        <h1>This is my login page</h1>
+      <div style={{ textAlign: 'center' }}>
+        <h1 style={{ marginTop: ((window.innerHeight / 2) - 100) }}>Move the mouse around!</h1>
+        <Mouse />
       </div>
     );
   }
-  
-});
+})

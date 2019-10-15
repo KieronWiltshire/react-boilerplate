@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 export default connect(
   (state) => {
@@ -24,6 +25,7 @@ export default connect(
     return (
       <div>
         <h1>Damn, {this.name}!</h1>
+        <Link to="/mouse">Mouse Tracker</Link>
       </div>
     );
   }
